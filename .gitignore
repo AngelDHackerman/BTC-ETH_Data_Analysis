@@ -261,4 +261,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# other
+/Data_files
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python,data
