@@ -13,3 +13,8 @@ The dataset was originally spread in 6 different files 2 of them with the __Mark
 The other 4 are 2 for the daily prices for Bitcion and Ethereum with their prices __compared to USD__
 
 This is why I decided to join the files __"Bitcoin USD (01-05.2024)"__ and __"BTC-USD (2014-2024)"__, and the __"ETH-USD (01-05.2024)"__ with __"ETH-USD (2017-2024)"__ in order to create only 2 files, one for BTC and other for ETH making the analysis easier. 
+
+
+## Initial investigation:
+
+Used methods like: `.head()`, `tail()`, `info()`, `describe()`, `isnull().sum()` and `duplicated().sum()` in order to have a better understanding for each CSV file.
