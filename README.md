@@ -15,6 +15,12 @@ The other 4 are 2 for the daily prices for Bitcion and Ethereum with their price
 This is why I decided to join the files __"Bitcoin USD (01-05.2024)"__ and __"BTC-USD (2014-2024)"__, and the __"ETH-USD (01-05.2024)"__ with __"ETH-USD (2017-2024)"__ in order to create only 2 files, one for BTC and other for ETH making the analysis easier. 
 
 
-## Initial investigation:
+## Initial investigation and actions taken:
 
-Used methods like: `.head()`, `tail()`, `info()`, `describe()`, `isnull().sum()` and `duplicated().sum()` in order to have a better understanding for each CSV file.
+* Used methods like: `.head()`, `tail()`, `info()`, `describe()`, `isnull().sum()` and `duplicated().sum()` in order to have a better understanding for each CSV file.
+
+* The column `Date` was changed to `datetime64` column type in all the datasets 
+
+* The datasets: __BTC_2023_2024_MarketCap__ & __Bitcoin USD (01-05.2024)__, __ETH-USD (2017-2024)__ & __ETH-USD (01-05.2024)__ where combinded because they were the same data but in different Date ranges.
+
+* Once the main datasets where combined into one (one for BTC and other for ETH), __null values__ and __duplicated values__ where removed because there was not too much data (only 2 rows for the null) and duplicated values wheren less han 15 rows for each dataset. 
