@@ -29,6 +29,7 @@ The other 4 are 2 for the daily prices for Bitcion and Ethereum with their price
 
 This is why I decided to join the files __"Bitcoin USD (01-05.2024)"__ and __"BTC-USD (2014-2024)"__, and the __"ETH-USD (01-05.2024)"__ with __"ETH-USD (2017-2024)"__ in order to create only 2 files, one for BTC and other for ETH making the analysis easier. 
 
+There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5EGSPC/history/) in which the historical information can be found. 
 
 ## Initial investigation and actions taken:
 
