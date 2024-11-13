@@ -42,3 +42,5 @@ There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5
 * Once the main datasets where combined into one (one for BTC and other for ETH), __null values__ and __duplicated values__ where removed because there was not too much data (only 2 rows for the null) and duplicated values wheren less han 15 rows for each dataset. 
 
 * S&P 500 dataset was trim in order to have the same date ranges with Bitcoin and S&P's 500. 
+
+* Matching the BTC and S&P 500 datasets by only using the business days in their entries. 
