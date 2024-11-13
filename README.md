@@ -1,4 +1,6 @@
-# Data Analysis for Bitcoin and Ethereum from 2014 to 2024
+<h1>Is there a significant correlation between Bitcoin/Ethereum prices and other economic indicators, such as the S&P 500 or interest rates?</h1>
+
+## Data Analysis for Bitcoin and Ethereum from 2014 to 2024
 
 This data analysis was done using the dataset from Kaggle: [bitcoin_ethereum-2014-2024](https://www.kaggle.com/datasets/kapturovalexander/bitcoin-and-ethereum-prices-from-start-to-2023)
 
@@ -6,6 +8,19 @@ This data analysis was done using the dataset from Kaggle: [bitcoin_ethereum-201
 ## General Description about the data set: 
 
 The dataset contains the information about __Daily__ prices for Bitcoin (BTC) and Ethereum (ETH) from differente range of dates but it is basically from January 2014 to May 2024
+
+## What questions are we looking to answer with this proyect? 
+
+The intention for this proyect is to answer a very interesting question about: how Bitcoin and Ethereum are correlated to the S&P 500 rates?
+
+By using different techniques of:
+
+* Statistics 
+* Analytics
+* Finances 
+* Story Telling
+
+I'll answer this very interesting question, while showing my skills as Data Analyst. 
 
 ### About the .csv files:
 
