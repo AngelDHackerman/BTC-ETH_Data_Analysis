@@ -48,3 +48,4 @@ There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5
   - __Data was filtered:__ Removed Weekends dates from BTC dataset in order to match the dates in both datasets
   - __Dates aligned:__ Idenfied and corrected differences between dates in order to make sure both datasets have same entries.
   - __Reseted Index:__ After filtering and cleaning, index were readjusted.
+  - __Objetive:__ This will warranty that data is ready and has high quality for the analysis, this process can be found in the file `2_BTC_SP500_comparation.ipynb`
