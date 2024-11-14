@@ -44,3 +44,7 @@ There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5
 * S&P 500 dataset was trim in order to have the same date ranges with Bitcoin and S&P's 500. 
 
 * Matching the BTC and S&P 500 datasets by only using the business days in their entries. The Weekends dates where removed from the BTC dataset. 
+
+  - __Data was filtered:__ Removed Weekends dates from BTC dataset in order to match the dates in both datasets
+  - __Dates aligned:__ Idenfied and corrected differences between dates in order to make sure both datasets have same entries.
+  - __Reseted Index:__ After filtering and cleaning, index were readjusted.
