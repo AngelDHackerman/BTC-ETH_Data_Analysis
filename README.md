@@ -31,7 +31,7 @@ This is why I decided to join the files __"Bitcoin USD (01-05.2024)"__ and __"BT
 
 There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5EGSPC/history/) in which the historical information can be found. 
 
-## Initial investigation and actions taken:
+## Initial investigation and actions taken (Steps 1 & 2):
 
 * Used methods like: `.head()`, `tail()`, `info()`, `describe()`, `isnull().sum()` and `duplicated().sum()` in order to have a better understanding for each CSV file.
 
@@ -49,3 +49,35 @@ There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5
   - __Dates aligned:__ Idenfied and corrected differences between dates in order to make sure both datasets have same entries.
   - __Reseted Index:__ After filtering and cleaning, index were readjusted.
   - __Objetive:__ This will warranty that data is ready and has high quality for the analysis, this process can be found in the file `2_BTC_SP500_comparation.ipynb`
+
+
+
+## Quality Evaluation of the data (Step 3):
+
+  In order to ensure that our datasets are clean, complete, and ready for analysis, a thorough **Quality Evaluation** was conducted. The following steps were taken:
+
+1. **Check for Missing Values and Null Counts**:
+   - Used `.isnull().sum()` to verify if any columns had missing values in either dataset (`btc_data` and `sp500_data`).
+   - **Result**: No missing values were found in any of the columns, indicating complete data coverage.
+
+2. **Check for Duplicates**:
+   - Applied `.duplicated().sum()` to identify if there were any duplicate rows in either dataset.
+   - **Result**: No duplicates were found, confirming the uniqueness of each data entry.
+
+3. **Consistency of Value Ranges**:
+   - Ran `.describe()` on both datasets to assess the minimum, maximum, mean, and standard deviation for each column.
+   - Verified that:
+     - Prices (`Open`, `High`, `Low`, `Close`) and `Volume` values were within expected ranges for both Bitcoin and the S&P 500.
+     - Bitcoin data displayed higher volatility (high standard deviation) compared to the S&P 500, as expected.
+   - **Result**: All values were within logical and expected ranges, with no outliers or unexpected anomalies.
+
+4. **Temporal Integrity Check**:
+   - Ensured the integrity of the date sequences by checking the frequency of date differences using `.diff().dt.days.value_counts()`.
+   - Results showed consistent patterns:
+     - 1-day gaps between consecutive entries represent standard business days.
+     - 3-day gaps indicate weekends (Friday to Monday).
+     - 4-day gaps likely represent long weekends with additional holidays.
+     - No unexpected gaps were found, indicating complete and aligned date sequences in both datasets.
+
+These steps confirm that the datasets are reliable, consistent, and suitable for comparative analysis between Bitcoin and the S&P 500 over time.
+
