@@ -82,7 +82,7 @@ There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5
 These steps confirm that the datasets are reliable, consistent, and suitable for comparative analysis between Bitcoin and the S&P 500 over time.
 
 
-## Temporal Analysis Summary
+## Temporal Analysis Summary (Step 4):
 
 ### Objective
 The objective of this analysis was to explore and understand the temporal patterns in the prices of Bitcoin and the S&P 500 from 2014 to 2024. This includes identifying trends, seasonality, and changes over different time intervals (weekly, monthly, quarterly, and annual).
