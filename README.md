@@ -1,4 +1,4 @@
-<h1>Is there a significant correlation between Bitcoin/Ethereum prices and other economic indicators, such as the S&P 500 or interest rates?</h1>
+<h1>Is there a significant correlation between Bitcoin/Ethereum prices and other economic indicators, such as the S&P 500?</h1>
 
 ## Data Analysis for Bitcoin and Ethereum from 2014 to 2024
 
