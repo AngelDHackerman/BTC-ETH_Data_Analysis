@@ -81,3 +81,42 @@ There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5
 
 These steps confirm that the datasets are reliable, consistent, and suitable for comparative analysis between Bitcoin and the S&P 500 over time.
 
+
+## Temporal Analysis Summary
+
+### Objective
+The objective of this analysis was to explore and understand the temporal patterns in the prices of Bitcoin and the S&P 500 from 2014 to 2024. This includes identifying trends, seasonality, and changes over different time intervals (weekly, monthly, quarterly, and annual).
+
+---
+
+### Steps Taken:
+
+### 1. Data Resampling
+We resampled the data to calculate average prices across different time intervals:
+- **Weekly Averages:** Captured short-term trends in the data.
+- **Monthly Averages:** Identified mid-term trends and smoother patterns.
+- **Quarterly Averages:** Highlighted broader patterns and trends over three-month periods.
+- **Annual Averages:** Summarized long-term behavior over each year.
+
+### 2. Visualization
+For each time interval, clear and informative visualizations were generated:
+- **Weekly Trends:** Line plots showing weekly average prices for Bitcoin and the S&P 500.
+- **Monthly Trends:** A broader look at the month-to-month price behavior.
+- **Quarterly and Annual Trends:** Long-term visualizations to capture macroeconomic patterns.
+
+### 3. Key Insights
+- Bitcoin prices show higher variability over shorter intervals (e.g., weekly).
+- S&P 500 demonstrates more stable trends with less pronounced fluctuations compared to Bitcoin.
+- Long-term trends indicate Bitcoin's significant growth since 2014, albeit with substantial volatility.
+
+---
+
+### Outcomes
+The temporal analysis provided a foundational understanding of how Bitcoin and S&P 500 prices behave over time. It also set the stage for more advanced analyses, such as evaluating volatility and uncovering deeper correlations.
+
+This analysis is documented through code and visualizations, ensuring reproducibility and clarity for stakeholders.
+
+---
+
+### Next Steps
+With the temporal analysis complete, the next step is to dive into specific insights, such as analyzing price **volatility**, **correlations** during significant events, and comparing **risk/return** profiles.
