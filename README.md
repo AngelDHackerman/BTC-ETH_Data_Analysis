@@ -128,3 +128,20 @@ With the temporal analysis complete, the next step is to dive into specific insi
 
 The objective of this analysis was to explore the correlation between Bitcoin (BTC) and the S&P 500 Index during the COVID-19 crisis (March 2020 to December 2021), energy and supplies crisis (2021-2022), financial crisis (2023) and Economic crisis in 2024
 
+### Steps Taken
+
+### 1. Data Preparation
+
+- Merged daily closing prices of Bitcoin and the S&P 500.
+
+- Filtered the data for the period of interest: March 2020 to December 2021, 2021-2022, 2023 and 2024
+
+### 2. Analysis
+
+- Calculated Pearson's correlation coefficient to measure the linear relationship.
+
+- Created visualizations to explore trends and correlations:
+
+  - __Time Series Plot:__ Compared daily prices of Bitcoin and the S&P 500.
+
+  - __Scatter Plot with Regression Line:__ Highlighted the correlation visually.
