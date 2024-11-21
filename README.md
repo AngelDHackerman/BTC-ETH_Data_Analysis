@@ -1,6 +1,6 @@
-<h1>Is there a significant correlation between Bitcoin/Ethereum prices and other economic indicators, such as the S&P 500?</h1>
+<h1>Is there a significant correlation between Bitcoin prices and other economic indicators, such as the S&P 500?</h1>
 
-## Data Analysis for Bitcoin and Ethereum from 2014 to 2024
+## Data Analysis for Bitcoin from 2014 to 2024
 
 This data analysis was done using the dataset from Kaggle: [bitcoin_ethereum-2014-2024](https://www.kaggle.com/datasets/kapturovalexander/bitcoin-and-ethereum-prices-from-start-to-2023)
 
@@ -155,7 +155,7 @@ In this section of the project, we analyzed and compared the monthly and annual 
 
 1. **Consistently Higher Volatility for Bitcoin**:
   - Bitcoin exhibits significantly higher monthly and annual volatility compared to the S&P 500.
-  - For example, during the 2020-2021 bull market, Bitcoin's monthly volatility was up to 10x higher than that of the S&P 500.
+  - For example, during the 2020-2021 bull market, Bitcoin's monthly volatility was up to **10x higher than** that of the S&P 500.
 
 2. **Volatility Peaks During Major Events**:
   - **2018**: Following the late 2017 surge to nearly $20,000, Bitcoin underwent a significant correction in early 2018, leading to reduced volatility. This downturn was influenced by stricter regulations and security concerns on trading platforms.
