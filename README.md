@@ -31,18 +31,18 @@ With tools like:
 
 I'll answer these very interesting questions, while showing my skills as Data Analyst! 
 
-## General Description about the data set: 
+## General Description about the datasets: 
 
-The dataset contains the information about __Daily__ prices for Bitcoin (BTC) and Ethereum (ETH) from differente range of dates but it is basically from January 2014 to May 2024
+The dataset contains the information about __Daily__ prices for Bitcoin (BTC) and Standar & Poor 500 (S&P 500) from differente range of dates but it is basically from September 2014 to May 2024
+
+### Handling Missing Values
+- Missing values were removed because they represented an insignificant portion of the dataset (less than 1%). Imputation (e.g., adding averages or zeros) could have introduced noise or biased the analysis, especially given Bitcoin's high volatility. Eliminating these rows ensures data integrity without impacting the overall trends.
+
+### Removing Weekend Data
+- Bitcoin prices recorded on weekends were excluded to align the dataset with the S&P 500, which only operates on business days. Filling weekend gaps with averages or interpolations would not accurately represent the unique market conditions of Bitcoin. Removing these entries guarantees a fair and unbiased comparison.
+
 
 ## Initial investigation and actions taken (Steps 1 & 2):
-
-### Objective
-
-The goal of this notebook is to perform an initial exploration of the Bitcoin dataset. We aim to:
-- Understand the structure and contents of the dataset.
-- Identify missing or inconsistent values.
-- Prepare the data for subsequent analysis.
 
 * Used methods like: `.head()`, `tail()`, `info()`, `describe()`, `isnull().sum()` and `duplicated().sum()` in order to have a better understanding for each CSV file.
 
