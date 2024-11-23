@@ -1,8 +1,4 @@
-<h1>Is there a significant correlation between Bitcoin prices and other economic indicators, such as the S&P 500?</h1>
-
-## General Description about the data set: 
-
-The dataset contains the information about __Daily__ prices for Bitcoin (BTC) and Ethereum (ETH) from differente range of dates but it is basically from January 2014 to May 2024
+# Is there a significant correlation between Bitcoin prices and other economic indicators, such as the S&P 500?
 
 ## What questions are we looking to answer with this proyect? 
 
@@ -10,18 +6,34 @@ The intention for this proyect is to answer a very interesting question about:
 
 1. How Bitcoin is correlated to the S&P 500 rates?
 2. How bitcoin and S&P 500 prices flutuate through the time, do they behave the same? 
-3. What is the correlation between Bitcoin and the S&P 500 during periods of economic crisis?
+3. What is the correlation between Bitcoin and the S&P 500 during periods of economic crisis? Like: 
+  * covid-19 (2020-2021)
+  * supply and energy crisis (2021-2022, covid issues and Ukraine-Russia War)
+  * economic crisis (2023-2024)
 4. Does Bitcoin exhibits higher volatility compared to the S&P 500, especially in recent years? (Monthy and Yearly)
 5. The S&P 500 has more consistent returns, while Bitcoin shows extreme spikes, is this true?
 
-By using different techniques of:
+By using different techniques such as:
 
-* Statistics 
-* Analytics
-* Finances 
-* Story Telling
+  * Statistics 
+  * Analytics
+  * Finances 
+  * Story Telling
+  * Critical thinking
 
-I'll answer this very interesting question, while showing my skills as Data Analyst. 
+With tools like: 
+
+  * __Python__
+  * __Numpy__
+  * __Pandas__
+  * __Matplotlib__
+  * __Seaborn__
+
+I'll answer these very interesting questions, while showing my skills as Data Analyst! 
+
+## General Description about the data set: 
+
+The dataset contains the information about __Daily__ prices for Bitcoin (BTC) and Ethereum (ETH) from differente range of dates but it is basically from January 2014 to May 2024
 
 ## Initial investigation and actions taken (Steps 1 & 2):
 
