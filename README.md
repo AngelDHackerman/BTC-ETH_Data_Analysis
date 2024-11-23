@@ -1,17 +1,18 @@
 <h1>Is there a significant correlation between Bitcoin prices and other economic indicators, such as the S&P 500?</h1>
 
-## Data Analysis for Bitcoin from 2014 to 2024
-
-This data analysis was done using the dataset from Kaggle: [bitcoin_ethereum-2014-2024](https://www.kaggle.com/datasets/kapturovalexander/bitcoin-and-ethereum-prices-from-start-to-2023)
-
-
 ## General Description about the data set: 
 
 The dataset contains the information about __Daily__ prices for Bitcoin (BTC) and Ethereum (ETH) from differente range of dates but it is basically from January 2014 to May 2024
 
 ## What questions are we looking to answer with this proyect? 
 
-The intention for this proyect is to answer a very interesting question about: how Bitcoin and Ethereum are correlated to the S&P 500 rates?
+The intention for this proyect is to answer a very interesting question about: 
+
+1. How Bitcoin is correlated to the S&P 500 rates?
+2. How bitcoin and S&P 500 prices flutuate through the time, do they behave the same? 
+3. What is the correlation between Bitcoin and the S&P 500 during periods of economic crisis?
+4. Does Bitcoin exhibits higher volatility compared to the S&P 500, especially in recent years? (Monthy and Yearly)
+5. The S&P 500 has more consistent returns, while Bitcoin shows extreme spikes, is this true?
 
 By using different techniques of:
 
@@ -22,16 +23,14 @@ By using different techniques of:
 
 I'll answer this very interesting question, while showing my skills as Data Analyst. 
 
-### About the .csv files:
-
-The dataset was originally spread in 6 different files 2 of them with the __MarketCap__ for Bitcoin and Ethereum.
-The other 4 are 2 for the daily prices for Bitcion and Ethereum with their prices __compared to USD__
-
-This is why I decided to join the files __"Bitcoin USD (01-05.2024)"__ and __"BTC-USD (2014-2024)"__, and the __"ETH-USD (01-05.2024)"__ with __"ETH-USD (2017-2024)"__ in order to create only 2 files, one for BTC and other for ETH making the analysis easier. 
-
-There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5EGSPC/history/) in which the historical information can be found. 
-
 ## Initial investigation and actions taken (Steps 1 & 2):
+
+### Objective
+
+The goal of this notebook is to perform an initial exploration of the Bitcoin dataset. We aim to:
+- Understand the structure and contents of the dataset.
+- Identify missing or inconsistent values.
+- Prepare the data for subsequent analysis.
 
 * Used methods like: `.head()`, `tail()`, `info()`, `describe()`, `isnull().sum()` and `duplicated().sum()` in order to have a better understanding for each CSV file.
 
@@ -195,3 +194,14 @@ In this section of the project, we analyzed and compared the monthly and annual 
 **Files Generated**:
 - Monthly and annual volatility comparison graphs.
 - Annotated graphs highlighting key economic events.
+
+
+
+### About the .csv files:
+
+The dataset was originally spread in 6 different files 2 of them with the __MarketCap__ for Bitcoin and Ethereum.
+The other 4 are 2 for the daily prices for Bitcion and Ethereum with their prices __compared to USD__
+
+This is why I decided to join the files __"Bitcoin USD (01-05.2024)"__ and __"BTC-USD (2014-2024)"__, and the __"ETH-USD (01-05.2024)"__ with __"ETH-USD (2017-2024)"__ in order to create only 2 files, one for BTC and other for ETH making the analysis easier. 
+
+There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5EGSPC/history/) in which the historical information can be found. 
