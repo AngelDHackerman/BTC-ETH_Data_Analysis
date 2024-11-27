@@ -153,7 +153,29 @@ See the further **observations** and **conclusions** in the notebook:
    - The S&P 500 showed relatively stable trends, highlighting resilience compared to BTC's heightened sensitivity to global market conditions.
    - **Correlation Insight**: The correlation between BTC and the S&P 500 **slightly weakened (0.60)** during this period but remained positive, suggesting partial market alignment amidst external shocks. **(See [Figure 6, lower section](#figure-6))** 
 
+<a id='Economic-crisis'></a>
 
+4. **Economic Crisis (2023–2024)**:
+   - BTC demonstrated significant growth and maintained a higher price trajectory, reflecting increased interest from speculative investors seeking alternative assets. **(See [Figure 7, upper section](#figure-7))**
+   - The S&P 500 displayed stable trends with gradual recovery, **reinforcing its role as an indicator of economic stability.**
+   - **Correlation Insight**: Correlation **strengthened (0.90)** during this period, indicating **increasing interdependence between BTC and traditional markets** as BTC becomes more integrated into global finance. **(See [Figure 7, lower section](#figure-7))**
+
+<a id='volumen-analysis'></a>
+
+5. **Volume Analysis**:
+   - BTC trading volume surged during periods of high price volatility, showing sensitivity to market events.
+   - S&P 500 volumes, though less volatile, also increased during market uncertainty.
+   - Overall, seems like the correlation "volumen trading-price" between bitcoin and S&P 500 is **Not very strong** and they are barely correlated. **(See [Figure 8](#figure-8))**
+
+
+
+
+
+### The "Red Shadow" in Correlation Graphs
+
+The **red shadow** in the correlation graphs represents the **confidence interval** for the linear regression line. This interval indicates the range within which the true regression line is likely to fall with a certain level of confidence (typically 95%). **A narrower red shadow** suggests **higher confidence** and less variability in the data, while a **wider shadow** indicates **greater uncertainty and variability** in the relationship between BTC and the S&P 500 prices.
+
+These observations and graphical insights collectively highlight how BTC and the S&P 500 respond under various economic conditions, demonstrating distinct behaviors and evolving correlations over time.
 
 ### **Simple Words**:
 - **📊 So, is the correlation between Bitcoin and the S&P 500 higher during periods of economic crisis?**
@@ -173,9 +195,15 @@ See the further **observations** and **conclusions** in the notebook:
 
 ![Bitcoin and S&P Prices During Supply and Energy Crisis](/images/Fig6_BTC_SP500_Price_Correlations_Supply_Crisis.png)
 
+<a id="figure-7"></a>
+**Figure 7.** Economic Crisis 2023-2024 (USD Price). [⬆️ Go back](#Economic-crisis)
 
+![Economic Crisis 2023-2024](/images/Fig7_BTC_SP500_Price_Correlation_Economic_crisis.png)
 
+<a id="figure-8"></a>
+**Figure 8.** Volumen-Price BTC vs S&P 500 Correlation. [⬆️ Go back](#volumen-analysis)
 
+![Volumen-Price BTC vs S&P 500 Correlation](/images/Fig8_BTC_SP500_Volume_Price_correlation.png)
 
 
 
