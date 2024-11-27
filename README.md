@@ -226,15 +226,16 @@ See the further **observations** and **conclusions** in the notebook:
 
 #### Key Observations:
 1. **Higher Volatility in Bitcoin**:
-  - Bitcoin's average monthly volatility is approximately **4.26 times higher** **(See [Figure 9, left-hand side](#figure-9))** than that of the S&P 500.
+  - Bitcoin's average monthly volatility is approximately **4.26 times higher** **(See [Figure 9](#figure-9))** than that of the S&P 500.
   - **At its peak**, Bitcoin was **1.74 times** more volatile than the S&P 500's peak monthly volatility, indicating that even during extreme market conditions, Bitcoin exhibits greater risk.
-  - Bitcoin is **4.23 times** more volatile than the S&P 500 on average **(annually)**.
+  - Bitcoin is **4.23 times** more volatile than the S&P 500 on average **(annually)**. **(See [Figure 10](#figure-10))**
   - **At its peak**, Bitcoin was **2.68 times** more volatile than the S&P 500 **(annually)**.
 
 2. **Consistent Volatility Patterns**:
    - Bitcoin consistently exhibits significantly higher volatility across both monthly and annual analyses.
+   - **(See [Figure 11](#figure-11) and [Figure 12](#figure-12))**
 
-3. **Key Events Influencing Volatility**:
+3. **Key Events Influencing Volatility**: **(See [Figure 11](#figure-11))**
    - **COVID-19 Crash (2020)**: Sharp increases in Bitcoin's volatility.
    - **Institutional Adoption (late 2020)**: Maximum volatility observed.
    - **Regulatory Changes (2023)**: Further fluctuations, though reduced compared to earlier years.
@@ -256,17 +257,29 @@ See the further **observations** and **conclusions** in the notebook:
 ---
 
 ### **Simple Words**
-- **Is Bitcoin more volatile than the S&P 500?**
-  - ✅ Yes, Bitcoin exhibits significantly higher volatility than the S&P 500 in almost every metric evaluated! This is especially true during extreme events, confirming its speculative nature and high-risk profile.
-  - With a montly average for 4 times more than S&P 500 and 
+- **how volatile is Bitcoin compared to the S&P 500?**
+  - 🪙 Bitcoin exhibits significantly higher 📈 volatility than the S&P 500 in almost every metric evaluated! This is especially true during extreme events, confirming its speculative nature and high-risk profile.
+  - With a **montly** average for **4 times** more than S&P 500 and pretty much **the same annually**. 
 
 <a id="figure-9"></a>
-**Figure 8.** Average Monthly Volatility BTC vs S&P 500. [⬆️ Go back](#volatility-monthly)
+**Figure 9.** Average Monthly Volatility BTC vs S&P 500. [⬆️ Go back](#volatility-monthly)
 
 ![Average Monthly Volatility BTC vs S&P 500](/images/Fig9_BTC_SP500_Volatility.png)
 
+<a id="figure-10"></a>
+**Figure 10.** Average Annually Volatility BTC vs S&P 500. [⬆️ Go back](#volatility-monthly)
 
+![Average Annually Volatility BTC vs S&P 500](/images/Fig_10_BTC_SP500_Volatility.png)
 
+<a id="figure-11"></a>
+**Figure 11.** Monthly Volatility Comparison BTC vs S&P 500. [⬆️ Go back](#volatility-monthly)
+
+![Monthly Volatility Comparison BTC vs S&P 500](/images/Fig_11_BTC_SP500_Patern_Month.png)
+
+<a id="figure-12"></a>
+**Figure 12.** Annual Volatility Comparison BTC vs S&P 500. [⬆️ Go back](#volatility-monthly)
+
+![Annual Volatility Comparison BTC vs S&P 500](/images/Fig_12_BTC_SP500_Patern_Yearly.png)
 
 ### Key Takeaways for Stakeholders
 
