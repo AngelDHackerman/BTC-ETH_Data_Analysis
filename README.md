@@ -65,6 +65,21 @@ See the further details in the notebooks for these steps:
 See the further **observations** and **conclusions** in the notebook:
 * [Quality Evaluation for BTC and S&P 500](./3_Quality_Evaluation_BTC_SP500.ipynb)
 
+### Step 4: Temporal Analysis
+- **Objective**: Identify price trends over weekly, monthly, quarterly, and yearly intervals.
+- **Findings**:
+  - **Price Trends**:
+    - Bitcoin shows high short-term variability, while the S&P 500 has stable, consistent growth. (See Figure 1)
+    - Long-term trends highlight Bitcoin's exponential growth and volatility. (See Figure 2)
+  - **Volume Trends**:
+    - Bitcoin's transaction volume correlates with periods de high price volatility, often spiking during market rallies or crashes. (See Figure 3)
+    - The S&P 500's transaction volume remains relatively stable, aligning with its consistent growth.
+    - Significant volume surges in Bitcoin often precede price reversals, suggesting a strong relationship between market sentiment and trading activity.
+  - **Comparative Insights**:
+    - Bitcoin's volume is highly responsive to market news and macroeconomic events, amplifying its volatility.
+    - S&P 500's trading volume shows resilience and lower sensitivity to short-term news, indicating a mature and stable market structure.
+
+
 
 
 
@@ -74,40 +89,6 @@ See the further **observations** and **conclusions** in the notebook:
 
 ### Objective
 The objective of this analysis was to explore and understand the temporal patterns in the prices of Bitcoin and the S&P 500 from 2014 to 2024. This includes identifying trends, seasonality, and changes over different time intervals (weekly, monthly, quarterly, and annual).
-
----
-
-### Steps Taken:
-
-### 1. Data Resampling
-We resampled the data to calculate average prices across different time intervals:
-- **Weekly Averages:** Captured short-term trends in the data.
-- **Monthly Averages:** Identified mid-term trends and smoother patterns.
-- **Quarterly Averages:** Highlighted broader patterns and trends over three-month periods.
-- **Annual Averages:** Summarized long-term behavior over each year.
-
-### 2. Visualization
-For each time interval, clear and informative visualizations were generated:
-- **Weekly Trends:** Line plots showing weekly average prices for Bitcoin and the S&P 500.
-- **Monthly Trends:** A broader look at the month-to-month price behavior.
-- **Quarterly and Annual Trends:** Long-term visualizations to capture macroeconomic patterns.
-
-### 3. Key Insights
-- Bitcoin prices show higher variability over shorter intervals (e.g., weekly).
-- S&P 500 demonstrates more stable trends with less pronounced fluctuations compared to Bitcoin.
-- Long-term trends indicate Bitcoin's significant growth since 2014, albeit with substantial volatility.
-
----
-
-### Outcomes
-The temporal analysis provided a foundational understanding of how Bitcoin and S&P 500 prices behave over time. It also set the stage for more advanced analyses, such as evaluating volatility and uncovering deeper correlations.
-
-This analysis is documented through code and visualizations, ensuring reproducibility and clarity for stakeholders.
-
----
-
-### Next Steps
-With the temporal analysis complete, the next step is to dive into specific insights, such as analyzing price **volatility**, **correlations** during significant events, and comparing **risk/return** profiles.
 
 
 ## Insights Analysis (Step 5):
