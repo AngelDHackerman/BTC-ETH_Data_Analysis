@@ -85,31 +85,29 @@ See the further **observations** and **conclusions** in the notebook:
 - **Simple Words**:
   - Bitcoin 🪙 exhibits high volatility and exponential long-term growth 📈, with transaction volumes spiking significantly during market events 📊, while the S&P 500 remains stable and less sensitive to short-term changes 🛠️📉. **Since 2018, Bitcoin has consistently outperformed the S&P 500 in both price 💸 and volume 🔥**.
 
+See the further **observations** and **conclusions** in the notebook:
+* [Temporal Analysis for Bitcoin and S&P 500 Index](/4_Temporal_Analysis.ipynb)
+
+
 <a id="figure-1"></a>
-- **Figure 1.** Average Weekly Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
+**Figure 1.** Average Weekly Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
 
 ![Average Weekly Prices of BTC and S&P 500 (USD)](./images/Fig1_weekly_prices_BTC_SP500.png)
 
 <a id="figure-2"></a>
-- **Figure 2.** Average Annual Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
+**Figure 2.** Average Annual Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
 
 ![Average Annual Prices of BTC and S&P 500 (USD)](/images/Fig2_annual_prices_BTC_SP500.png)
 
 <a id="figure-3"></a>
-- **Figure 3.** Weekly Volume Transaction of BTC and S&P 500 (per 1 millon units). [⬆️ Go back](#temporal-analysis)
+**Figure 3.** Weekly Volume Transaction of BTC and S&P 500 (per 1 millon units). [⬆️ Go back](#temporal-analysis)
 
 ![Weekly Volume Transaction of BTC and S&P 500](/images/Fig3_weekly_volume_BTC_SP500.png)
 
 <a id="figure-4"></a>
-- **Figure 4.** Annual Volume Transaction of BTC and S&P 500 (per 1 millon units). [⬆️ Go back](#temporal-analysis)
+**Figure 4.** Annual Volume Transaction of BTC and S&P 500 (per 1 millon units). [⬆️ Go back](#temporal-analysis)
 
 ![Weekly Volume Transaction of BTC and S&P 500](/images/Fig4_annual_volume_BTC_SP500.png)
-
-
-## Temporal Analysis Summary (Step 4):
-
-### Objective
-The objective of this analysis was to explore and understand the temporal patterns in the prices of Bitcoin and the S&P 500 from 2014 to 2024. This includes identifying trends, seasonality, and changes over different time intervals (weekly, monthly, quarterly, and annual).
 
 
 ## Insights Analysis (Step 5):
