@@ -155,6 +155,13 @@ See the further **observations** and **conclusions** in the notebook:
 
 
 
+### **Simple Words**:
+- **📊 So, is the correlation between Bitcoin and the S&P 500 higher during periods of economic crisis?**
+  - ✅ Yes! It seems that the correlation between Bitcoin 🪙 and the S&P 500 💰 appears to be high 📈, especially during times of economic crises 🔥🌎📉.
+
+
+See the further **observations** and **conclusions** in the notebook:
+* [Analysis For Different Crisis and Correlations](/5.1_Insights_Analysis_Crisis_And_Correlations.ipynb)
 
 <a id="figure-5"></a>
 **Figure 5.** Bitcoin and S&P Prices During Covid-19 Crisis (USD Price). [⬆️ Go back](#covid-19_correlation)
