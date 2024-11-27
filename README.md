@@ -67,6 +67,7 @@ See the further **observations** and **conclusions** in the notebook:
 
 <a id='temporal-analysis'></a>
 ### Step 4: Temporal Analysis
+
 - **Objective**: Identify price trends over weekly, monthly, quarterly, and yearly intervals.
 
 - **Findings**:
