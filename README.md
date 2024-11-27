@@ -32,6 +32,7 @@ I'll answer these very interesting questions, enjoy!
 The datasets include daily prices for Bitcoin and the S&P 500 from **September 2014 to May 2024**.
 
 ### Key Preprocessing Steps:
+
 1. **Handling Missing Values**:
    - Removed missing values to ensure data integrity, as they represented less than 1% of the dataset.
 2. **Removing Weekend Data**:
@@ -40,55 +41,33 @@ The datasets include daily prices for Bitcoin and the S&P 500 from **September 2
    - Removed duplicates and ensured temporal alignment between datasets.
 
 
-## Initial investigation and actions taken (Steps 1 & 2):
+## **Project Workflow**
 
-* Used methods like: `.head()`, `tail()`, `info()`, `describe()`, `isnull().sum()` and `duplicated().sum()` in order to have a better understanding for each CSV file.
+### Step 1 & 2: Initial Investigation
+- Performed exploratory analysis using `.head()`, `.info()`, and `.describe()` to understand the datasets.
+- Combined relevant files to create unified datasets for Bitcoin and S&P 500 index.
+- Ensured high data quality by removing null and duplicate rows.
+- Change the data type in columns like 'Date' to `datetime64` for better handling with the datasets.
+- By using the Interquartile Range method (IQR) some outliers were found in both datasets, they were keep in order to see market behaviors during extreme events. 
+- Data was exported one file for BTC and S&P500 
 
-* The column `Date` was changed to `datetime64` column type in all the datasets 
+See the further details in the notebooks for these steps: 
+* [Initial Exploration S&P 500](./1_Inital_Exploration_SP_500.ipynb)
+* [Initial Exploration BTC](./1_Initial_Exploraion_BTC.ipynb)
+* [BTC and S&P Comparation](./2_BTC_SP500_Comparation.ipynb)
 
-* The datasets: __BTC_2023_2024_MarketCap__ & __Bitcoin USD (01-05.2024)__, __ETH-USD (2017-2024)__ & __ETH-USD (01-05.2024)__ where combinded because they were the same data but in different Date ranges.
+### Step 3: Quality Evaluation
 
-* Once the main datasets where combined into one (one for BTC and other for ETH), __null values__ and __duplicated values__ where removed because there was not too much data (only 2 rows for the null) and duplicated values wheren less han 15 rows for each dataset. 
+- Verified data integrity by checking for **missing values**, **duplicates**, and **logical value ranges**.
+- Datasets are temporally, ensuring both had identical date ranges.
+- Data is clean and it is consisten and reliable in both datasets.
 
-* S&P 500 dataset was trim in order to have the same date ranges with Bitcoin and S&P's 500. 
-
-* Matching the BTC and S&P 500 datasets by only using the business days in their entries. The Weekends dates where removed from the BTC dataset. 
-
-  - __Data was filtered:__ Removed Weekends dates from BTC dataset in order to match the dates in both datasets
-  - __Dates aligned:__ Idenfied and corrected differences between dates in order to make sure both datasets have same entries.
-  - __Reseted Index:__ After filtering and cleaning, index were readjusted.
-  - __Objetive:__ This will warranty that data is ready and has high quality for the analysis, this process can be found in the file `2_BTC_SP500_comparation.ipynb`
-
+See the further **observations** and **conclusions** in the notebook:
+* [Quality Evaluation for BTC and S&P 500](./3_Quality_Evaluation_BTC_SP500.ipynb)
 
 
-## Quality Evaluation of the data (Step 3):
 
-  In order to ensure that our datasets are clean, complete, and ready for analysis, a thorough **Quality Evaluation** was conducted. The following steps were taken:
 
-1. **Check for Missing Values and Null Counts**:
-   - Used `.isnull().sum()` to verify if any columns had missing values in either dataset (`btc_data` and `sp500_data`).
-   - **Result**: No missing values were found in any of the columns, indicating complete data coverage.
-
-2. **Check for Duplicates**:
-   - Applied `.duplicated().sum()` to identify if there were any duplicate rows in either dataset.
-   - **Result**: No duplicates were found, confirming the uniqueness of each data entry.
-
-3. **Consistency of Value Ranges**:
-   - Ran `.describe()` on both datasets to assess the minimum, maximum, mean, and standard deviation for each column.
-   - Verified that:
-     - Prices (`Open`, `High`, `Low`, `Close`) and `Volume` values were within expected ranges for both Bitcoin and the S&P 500.
-     - Bitcoin data displayed higher volatility (high standard deviation) compared to the S&P 500, as expected.
-   - **Result**: All values were within logical and expected ranges, with no outliers or unexpected anomalies.
-
-4. **Temporal Integrity Check**:
-   - Ensured the integrity of the date sequences by checking the frequency of date differences using `.diff().dt.days.value_counts()`.
-   - Results showed consistent patterns:
-     - 1-day gaps between consecutive entries represent standard business days.
-     - 3-day gaps indicate weekends (Friday to Monday).
-     - 4-day gaps likely represent long weekends with additional holidays.
-     - No unexpected gaps were found, indicating complete and aligned date sequences in both datasets.
-
-These steps confirm that the datasets are reliable, consistent, and suitable for comparative analysis between Bitcoin and the S&P 500 over time.
 
 
 ## Temporal Analysis Summary (Step 4):
@@ -209,8 +188,8 @@ In this section of the project, we analyzed and compared the monthly and annual 
 
 ### About the .csv files:
 
-The dataset was originally spread in 6 different files 2 of them with the __MarketCap__ for Bitcoin and Ethereum.
-The other 4 are 2 for the daily prices for Bitcion and Ethereum with their prices __compared to USD__
+The dataset was originally spread in 6 different files 2 of them with the __MarketCap__ for Bitcoin and .
+The other 4 are 2 for the daily prices for Bitcion and  with their prices __compared to USD__
 
 This is why I decided to join the files __"Bitcoin USD (01-05.2024)"__ and __"BTC-USD (2014-2024)"__, and the __"ETH-USD (01-05.2024)"__ with __"ETH-USD (2017-2024)"__ in order to create only 2 files, one for BTC and other for ETH making the analysis easier. 
 
