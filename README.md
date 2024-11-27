@@ -84,7 +84,9 @@ See the further **observations** and **conclusions** in the notebook:
     - S&P 500's trading volume shows resilience and lower sensitivity to short-term news, indicating a mature and stable market structure.
     - In both cases in January 2018 price and volume of bitcoin surpassed S&P's metrics, and has stayed like that since then, for the moment... **(See Figure 1 and 3)** 
 
-- **Simple Words**:
+---
+
+### **Simple Words**:
   - Bitcoin 🪙 exhibits high volatility and exponential long-term growth 📈, with transaction volumes spiking significantly during market events 📊, while the S&P 500 remains stable and less sensitive to short-term changes 🛠️📉. **Since 2018, Bitcoin has consistently outperformed the S&P 500 in both price 💸 and volume 🔥**.
 
 See the further **observations** and **conclusions** in the notebook:
@@ -113,7 +115,7 @@ See the further **observations** and **conclusions** in the notebook:
 
 # The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?
 
-### Insights Analysis (Step 5):
+### Insights Analysis (Step 5.1):
 
 - **Objective**: The objective of this analysis was to explore the correlation between Bitcoin (BTC) and the S&P 500 Index during the COVID-19 crisis (March 2020 to December 2021), energy and supplies crisis (2021-2022), financial crisis (2023-2024).
 
@@ -167,15 +169,13 @@ See the further **observations** and **conclusions** in the notebook:
    - S&P 500 volumes, though less volatile, also increased during market uncertainty.
    - Overall, seems like the correlation "volumen trading-price" between bitcoin and S&P 500 is **Not very strong** and they are barely correlated. **(See [Figure 8](#figure-8))**
 
-
-
-
-
 ### The "Red Shadow" in Correlation Graphs
 
 The **red shadow** in the correlation graphs represents the **confidence interval** for the linear regression line. This interval indicates the range within which the true regression line is likely to fall with a certain level of confidence (typically 95%). **A narrower red shadow** suggests **higher confidence** and less variability in the data, while a **wider shadow** indicates **greater uncertainty and variability** in the relationship between BTC and the S&P 500 prices.
 
 These observations and graphical insights collectively highlight how BTC and the S&P 500 respond under various economic conditions, demonstrating distinct behaviors and evolving correlations over time.
+
+---
 
 ### **Simple Words**:
 - **📊 So, is the correlation between Bitcoin and the S&P 500 higher during periods of economic crisis?**
@@ -206,8 +206,64 @@ See the further **observations** and **conclusions** in the notebook:
 ![Volumen-Price BTC vs S&P 500 Correlation](/images/Fig8_BTC_SP500_Volume_Price_correlation.png)
 
 
+# Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?
+## Analyzing Volatility on Monthly and Yearly Scales
 
+### Insights Analysis (Step 5.2)
 
+- **Objectives:**
+  - Evaluate and compare the **volatility** of Bitcoin (BTC) and the S&P 500 Index on different time scales: **monthly** and **annually**.
+  - Analyze and highlight:
+    - **Average Volatility**: Identifying typical market fluctuations.
+    - **Peak Volatility**: Assessing extreme market movements.
+    - **Significant differences** and **patterns** in volatility between BTC and the S&P 500 over time.
+  - Identify key events influencing the volatility of both assets.
+  - Provide a comprehensive understanding of market behavior and associated risks.
+
+### Observations and Conclusions:
+
+<a id="volatility-monthly"></a>
+
+#### Key Observations:
+1. **Higher Volatility in Bitcoin**:
+  - Bitcoin's average monthly volatility is approximately **4.26 times higher** **(See [Figure 9, left-hand side](#figure-9))** than that of the S&P 500.
+  - **At its peak**, Bitcoin was **1.74 times** more volatile than the S&P 500's peak monthly volatility, indicating that even during extreme market conditions, Bitcoin exhibits greater risk.
+  - Bitcoin is **4.23 times** more volatile than the S&P 500 on average **(annually)**.
+  - **At its peak**, Bitcoin was **2.68 times** more volatile than the S&P 500 **(annually)**.
+
+2. **Consistent Volatility Patterns**:
+   - Bitcoin consistently exhibits significantly higher volatility across both monthly and annual analyses.
+
+3. **Key Events Influencing Volatility**:
+   - **COVID-19 Crash (2020)**: Sharp increases in Bitcoin's volatility.
+   - **Institutional Adoption (late 2020)**: Maximum volatility observed.
+   - **Regulatory Changes (2023)**: Further fluctuations, though reduced compared to earlier years.
+
+#### Conclusions:
+
+1. **Bitcoin as a High-Risk Asset**:
+   - Bitcoin's volatility significantly surpasses that of the S&P 500, reaffirming its status as a high-risk asset.
+
+2. **Market Sensitivity to External Events**:
+   - Both Bitcoin and the S&P 500 exhibit sensitivity to macroeconomic and regulatory events, but Bitcoin's responses are more pronounced.
+
+3. **Potential for Diversification**:
+   - Despite its volatility, Bitcoin could provide diversification benefits in portfolios, particularly for high-risk, high-reward strategies.
+
+4. **Future Implications**:
+   - As institutional adoption and regulation evolve, Bitcoin's volatility may stabilize over time, though it is likely to remain higher than traditional indices like the S&P 500.
+
+---
+
+### **Simple Words**
+- **Is Bitcoin more volatile than the S&P 500?**
+  - ✅ Yes, Bitcoin exhibits significantly higher volatility than the S&P 500 in almost every metric evaluated! This is especially true during extreme events, confirming its speculative nature and high-risk profile.
+  - With a montly average for 4 times more than S&P 500 and 
+
+<a id="figure-9"></a>
+**Figure 8.** Average Monthly Volatility BTC vs S&P 500. [⬆️ Go back](#volatility-monthly)
+
+![Average Monthly Volatility BTC vs S&P 500](/images/Fig9_BTC_SP500_Volatility.png)
 
 
 
