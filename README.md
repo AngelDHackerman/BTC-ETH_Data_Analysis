@@ -66,6 +66,7 @@ See the further **observations** and **conclusions** in the notebook:
 * [Quality Evaluation for BTC and S&P 500](./3_Quality_Evaluation_BTC_SP500.ipynb)
 
 <a id='temporal-analysis'></a>
+
 ### Step 4: Temporal Analysis
 
 - **Objective**: Identify price trends over weekly, monthly, quarterly, and yearly intervals.
@@ -110,12 +111,49 @@ See the further **observations** and **conclusions** in the notebook:
 
 ![Weekly Volume Transaction of BTC and S&P 500](/images/Fig4_annual_volume_BTC_SP500.png)
 
+<a id='correlation_btc_sp500'></a>
 
-## Insights Analysis (Step 5):
+# The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?
 
-### Objective
+### Insights Analysis (Step 5):
 
-The objective of this analysis was to explore the correlation between Bitcoin (BTC) and the S&P 500 Index during the COVID-19 crisis (March 2020 to December 2021), energy and supplies crisis (2021-2022), financial crisis (2023-2024)
+- **Objective**: The objective of this analysis was to explore the correlation between Bitcoin (BTC) and the S&P 500 Index during the COVID-19 crisis (March 2020 to December 2021), energy and supplies crisis (2021-2022), financial crisis (2023-2024).
+
+- **Specifically, the analysis focuses on**:
+  - Understanding the behavior of BTC and the S&P 500 during key economic periods.
+  - Comparing price and volume trends and correlations to identify potential patterns or anomalies.
+  - Highlighting insights that could inform investment or risk management strategies.
+
+#### Understanding Correlations
+
+  1. **Positive Correlation**:
+    - If the correlation is closer to **1**, it indicates a **direct positive correlation**, meaning that as one variable increases, the other also increases.
+
+  2. **Negative Correlation**:
+    - If the correlation is closer to **-1**, it indicates a **direct inverse correlation**, meaning that as one variable increases, the other decreases.
+
+  3. **No Correlation**:
+    - The closer the correlation is to **0**, the weaker the relationship, indicating **little to no correlation** between the two variables.
+
+### Observations and Conclusions
+
+1. **Overall Trends**:
+   - BTC and the S&P 500 exhibit distinct behaviors, with BTC showing higher volatility compared to the stable movement of the S&P 500.
+   - Both assets show significant price movements during major economic periods, such as the COVID-19 crisis.
+
+2. **COVID-19 Period Analysis (2020–2021)**:
+   - During the pandemic, BTC experienced a sharp price increase **starting late 2020, coinciding with fiscal stimulus measures.** 
+   - The S&P 500 also rebounded during this period, reflecting similar recovery trends in traditional and cryptocurrency markets.
+
+
+
+
+
+
+<a id="figure-5"></a>
+**Figure 5.** Bitcoin and S&P Prices During Covid-19 Crisis (USD Price). [⬆️ Go back](#correlation_btc_sp500)
+
+![Bitcoin and S&P Prices During Covid-19 Crisis](/images/Fig5_BTC_SP500_price_correlations_Covid-19.png)
 
 ### Steps Taken
 
