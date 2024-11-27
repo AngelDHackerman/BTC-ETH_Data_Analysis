@@ -65,24 +65,45 @@ See the further details in the notebooks for these steps:
 See the further **observations** and **conclusions** in the notebook:
 * [Quality Evaluation for BTC and S&P 500](./3_Quality_Evaluation_BTC_SP500.ipynb)
 
+<a id='temporal-analysis'></a>
 ### Step 4: Temporal Analysis
 - **Objective**: Identify price trends over weekly, monthly, quarterly, and yearly intervals.
+
 - **Findings**:
   - **Price Trends**:
-    - Bitcoin shows high short-term variability, while the S&P 500 has stable, consistent growth. (See Figure 1)
-    - Long-term trends highlight Bitcoin's exponential growth and volatility. (See Figure 2)
+    - Bitcoin shows high short-term variability, while the S&P 500 has stable, consistent growth. **(See [Figure 1](#figure-1))**
+    - Long-term trends highlight Bitcoin's exponential growth and volatility. **(See [Figure 2](#figure-2))**
   - **Volume Trends**:
-    - Bitcoin's transaction volume correlates with periods de high price volatility, often spiking during market rallies or crashes. (See Figure 3)
+    - Bitcoin's transaction volume correlates with periods de high price volatility, often spiking during market rallies or crashes. 
     - The S&P 500's transaction volume remains relatively stable, aligning with its consistent growth.
-    - Significant volume surges in Bitcoin often precede price reversals, suggesting a strong relationship between market sentiment and trading activity.
+    - Significant volume surges in Bitcoin often precede price reversals, suggesting a strong relationship between market sentiment and trading activity. **(See [Figure 3](#figure-3) and [Figure 4](#figure-4))**
   - **Comparative Insights**:
     - Bitcoin's volume is highly responsive to market news and macroeconomic events, amplifying its volatility.
     - S&P 500's trading volume shows resilience and lower sensitivity to short-term news, indicating a mature and stable market structure.
+    - In both cases in January 2018 price and volume of bitcoin surpassed S&P's metrics, and has stayed like that since then, for the moment... **(See Figure 1 and 3)** 
 
+- **Simple Words**:
+  - Bitcoin 🪙 exhibits high volatility and exponential long-term growth 📈, with transaction volumes spiking significantly during market events 📊, while the S&P 500 remains stable and less sensitive to short-term changes 🛠️📉. **Since 2018, Bitcoin has consistently outperformed the S&P 500 in both price 💸 and volume 🔥**.
 
+<a id="figure-1"></a>
+- **Figure 1.** Average Weekly Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
 
+![Average Weekly Prices of BTC and S&P 500 (USD)](./images/Fig1_weekly_prices_BTC_SP500.png)
 
+<a id="figure-2"></a>
+- **Figure 2.** Average Annual Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
 
+![Average Annual Prices of BTC and S&P 500 (USD)](/images/Fig2_annual_prices_BTC_SP500.png)
+
+<a id="figure-3"></a>
+- **Figure 3.** Weekly Volume Transaction of BTC and S&P 500 (per 1 millon units). [⬆️ Go back](#temporal-analysis)
+
+![Weekly Volume Transaction of BTC and S&P 500](/images/Fig3_weekly_volume_BTC_SP500.png)
+
+<a id="figure-4"></a>
+- **Figure 4.** Annual Volume Transaction of BTC and S&P 500 (per 1 millon units). [⬆️ Go back](#temporal-analysis)
+
+![Weekly Volume Transaction of BTC and S&P 500](/images/Fig4_annual_volume_BTC_SP500.png)
 
 
 ## Temporal Analysis Summary (Step 4):
