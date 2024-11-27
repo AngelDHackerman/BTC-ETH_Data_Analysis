@@ -142,10 +142,14 @@ See the further **observations** and **conclusions** in the notebook:
    - Both assets show significant price movements during major economic periods, such as the COVID-19 crisis.
 
 2. **COVID-19 Period Analysis (2020–2021)**:
-   - During the pandemic, BTC experienced a sharp price increase **starting late 2020, coinciding with fiscal stimulus measures.** 
+   - During the pandemic, BTC experienced a sharp price increase **starting late 2020, coinciding with fiscal stimulus measures.** **(See [Figure 5, upper section](#figure-5))**
    - The S&P 500 also rebounded during this period, reflecting similar recovery trends in traditional and cryptocurrency markets.
+   - **Correlation Insight**: BTC and S&P 500 demonstrated **moderate-to-strong (0.87)** positive correlation during this period, indicating closer alignment of market movements. **(See [Figure 5, lower section](#figure-5))**
 
-
+3. **Supply and Energy Crisis 2021–2022 (Still covid issues and Ukraine-Russia War)**:
+   - BTC's price and volume exhibited high volatility, with significant declines during global energy shortages and supply chain disruptions.
+   - The S&P 500 showed relatively stable trends, highlighting resilience compared to BTC's heightened sensitivity to global market conditions.
+   - **Correlation Insight**: The correlation between BTC and the S&P 500 slightly weakened during this period but remained positive, suggesting partial market alignment amidst external shocks.
 
 
 
@@ -154,6 +158,11 @@ See the further **observations** and **conclusions** in the notebook:
 **Figure 5.** Bitcoin and S&P Prices During Covid-19 Crisis (USD Price). [⬆️ Go back](#correlation_btc_sp500)
 
 ![Bitcoin and S&P Prices During Covid-19 Crisis](/images/Fig5_BTC_SP500_price_correlations_Covid-19.png)
+
+
+
+
+
 
 ### Steps Taken
 
