@@ -111,8 +111,6 @@ See the further **observations** and **conclusions** in the notebook:
 
 ![Weekly Volume Transaction of BTC and S&P 500](/images/Fig4_annual_volume_BTC_SP500.png)
 
-<a id='correlation_btc_sp500'></a>
-
 # The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?
 
 ### Insights Analysis (Step 5):
@@ -141,25 +139,32 @@ See the further **observations** and **conclusions** in the notebook:
    - BTC and the S&P 500 exhibit distinct behaviors, with BTC showing higher volatility compared to the stable movement of the S&P 500.
    - Both assets show significant price movements during major economic periods, such as the COVID-19 crisis.
 
+<a id='covid-19_correlation'></a>
+
 2. **COVID-19 Period Analysis (2020–2021)**:
    - During the pandemic, BTC experienced a sharp price increase **starting late 2020, coinciding with fiscal stimulus measures.** **(See [Figure 5, upper section](#figure-5))**
    - The S&P 500 also rebounded during this period, reflecting similar recovery trends in traditional and cryptocurrency markets.
    - **Correlation Insight**: BTC and S&P 500 demonstrated **moderate-to-strong (0.87)** positive correlation during this period, indicating closer alignment of market movements. **(See [Figure 5, lower section](#figure-5))**
 
+<a id='supply_energy_correlation'></a>
+
 3. **Supply and Energy Crisis 2021–2022 (Still covid issues and Ukraine-Russia War)**:
-   - BTC's price and volume exhibited high volatility, with significant declines during global energy shortages and supply chain disruptions.
+   - BTC's price and volume exhibited high volatility, with significant declines during global energy shortages and supply chain disruptions, along with the ban of Bitcoin in China (Sep 2021) **(See [Figure 6, upper section](#figure-6))** 
    - The S&P 500 showed relatively stable trends, highlighting resilience compared to BTC's heightened sensitivity to global market conditions.
-   - **Correlation Insight**: The correlation between BTC and the S&P 500 slightly weakened during this period but remained positive, suggesting partial market alignment amidst external shocks.
+   - **Correlation Insight**: The correlation between BTC and the S&P 500 **slightly weakened (0.60)** during this period but remained positive, suggesting partial market alignment amidst external shocks. **(See [Figure 6, lower section](#figure-6))** 
 
 
 
 
 <a id="figure-5"></a>
-**Figure 5.** Bitcoin and S&P Prices During Covid-19 Crisis (USD Price). [⬆️ Go back](#correlation_btc_sp500)
+**Figure 5.** Bitcoin and S&P Prices During Covid-19 Crisis (USD Price). [⬆️ Go back](#covid-19_correlation)
 
 ![Bitcoin and S&P Prices During Covid-19 Crisis](/images/Fig5_BTC_SP500_price_correlations_Covid-19.png)
 
+<a id="figure-6"></a>
+**Figure 6.** Bitcoin and S&P Prices During Supply and Energy Crisis (USD Price). [⬆️ Go back](#supply_energy_correlation)
 
+![Bitcoin and S&P Prices During Supply and Energy Crisis](/images/Fig6_BTC_SP500_Price_Correlations_Supply_Crisis.png)
 
 
 
