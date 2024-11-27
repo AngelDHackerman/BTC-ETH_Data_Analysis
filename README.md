@@ -26,15 +26,18 @@ With tools like:
 
 I'll answer these very interesting questions, enjoy!
 
-## General Description about the datasets: 
+## **Datasets**
+### Overview
 
-The dataset contains the information about __Daily__ prices for Bitcoin (BTC) and Standar & Poor 500 (S&P 500) from differente range of dates but it is basically from September 2014 to May 2024
+The datasets include daily prices for Bitcoin and the S&P 500 from **September 2014 to May 2024**.
 
-### Handling Missing Values
-- Missing values were removed because they represented an insignificant portion of the dataset (less than 1%). Imputation (e.g., adding averages or zeros) could have introduced noise or biased the analysis, especially given Bitcoin's high volatility. Eliminating these rows ensures data integrity without impacting the overall trends.
-
-### Removing Weekend Data
-- Bitcoin prices recorded on weekends were excluded to align the dataset with the S&P 500, which only operates on business days. Filling weekend gaps with averages or interpolations would not accurately represent the unique market conditions of Bitcoin. Removing these entries guarantees a fair and unbiased comparison.
+### Key Preprocessing Steps:
+1. **Handling Missing Values**:
+   - Removed missing values to ensure data integrity, as they represented less than 1% of the dataset.
+2. **Removing Weekend Data**:
+   - Aligned Bitcoin's data with the S&P 500, which only trades on business days.
+3. **Data Cleaning**:
+   - Removed duplicates and ensured temporal alignment between datasets.
 
 
 ## Initial investigation and actions taken (Steps 1 & 2):
