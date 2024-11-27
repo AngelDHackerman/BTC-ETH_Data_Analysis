@@ -169,55 +169,13 @@ See the further **observations** and **conclusions** in the notebook:
 
 
 
-### Steps Taken
 
-### 1. Data Preparation
 
-- Merged daily closing prices of Bitcoin and the S&P 500.
 
-- Filtered the data for the period of interest: March 2020 to December 2021, 2021-2022, 2023 and 2024
 
-### 2. Analysis
 
-- Calculated Pearson's correlation coefficient to measure the linear relationship.
 
-- Created visualizations to explore trends and correlations:
 
-  - __Time Series Plot:__ Compared daily prices of Bitcoin and the S&P 500.
-
-  - __Scatter Plot with Regression Line:__ Highlighted the correlation visually.
-
-## Volatility Analysis: Bitcoin vs S&P 500
-
-### Overview
-In this section of the project, we analyzed and compared the monthly and annual volatility of Bitcoin (BTC) and the S&P 500. Volatility was calculated using the standard deviation of daily prices resampled to monthly and yearly intervals. This analysis aimed to highlight how Bitcoin, as a relatively new and speculative asset, behaves differently compared to a traditional, established market index like the S&P 500.
-
-### Key Insights
-
-1. **Consistently Higher Volatility for Bitcoin**:
-  - Bitcoin exhibits significantly higher monthly and annual volatility compared to the S&P 500.
-  - For example, during the 2020-2021 bull market, Bitcoin's monthly volatility was up to **10x higher than** that of the S&P 500.
-
-2. **Volatility Peaks During Major Events**:
-  - **2018**: Following the late 2017 surge to nearly $20,000, Bitcoin underwent a significant correction in early 2018, leading to reduced volatility. This downturn was influenced by stricter regulations and security concerns on trading platforms.
-  - **2019**: In the first half of 2019, Bitcoin rebounded, reaching approximately $13,800 in June. This rise was driven by renewed institutional interest, the introduction of Bitcoin futures, and positive expectations regarding cryptocurrency adoption.
-  - **Early 2020 (COVID-19)**: In January 2020, Bitcoin's volatility increased due to global economic uncertainties, including early reports of COVID-19. Investors sought alternative assets as a hedge, temporarily boosting Bitcoin's price.
-  - **Late 2020 to Early 2021**: At the end of 2020, Bitcoin experienced a sharp rise in both volatility and price, surpassing $20,000 for the first time since 2017. Factors such as adoption by companies like PayPal, significant institutional investments, and a growing perception of Bitcoin as a hedge against inflation contributed to this surge.
-  - **Mid-2021 Decline**: In 2021, Bitcoin reached an all-time high of around $64,000 in April, followed by a sharp decline in May, dropping below $30,000. This volatility was due to restrictive measures in China against cryptocurrency mining and trading, as well as environmental concerns related to Bitcoin's energy consumption.
-  - **2023 and 2024**: In 2023, Bitcoin exhibited moderate fluctuations, influenced by regulations in various jurisdictions and the evolution of institutional adoption. In 2024, Bitcoin's price has shown an upward trend, reaching new all-time highs. This increase is attributed to favorable political promises towards cryptocurrencies, such as those made by U.S. President Donald Trump, who has expressed his intention to make the country the "crypto capital of the planet" :contentReference[oaicite:0]{index=0}. Additionally, the approval of Bitcoin ETFs and greater institutional adoption have contributed to this rise.
-
-3. **Correlation With Major Economic Events**:
-  - Periods of high volatility in Bitcoin align with major global crises, such as the COVID-19 pandemic and the 2023 economic slowdown, suggesting that Bitcoin often behaves like a high-risk asset during these periods.
-
-### Methodology
-
-1. **Data Preparation**:
-  - Cleaned and aligned Bitcoin and S&P 500 datasets with daily prices.
-  - Resampled data to calculate monthly and annual standard deviations as a measure of volatility.
-
-2. **Visualization**:
-  - Created comparative graphs for monthly and annual volatility of Bitcoin and the S&P 500.
-  - Annotated key events (e.g., 2018 bubble correction, COVID-19) to provide context for volatility spikes.
 
 ### Key Takeaways for Stakeholders
 
@@ -232,11 +190,6 @@ In this section of the project, we analyzed and compared the monthly and annual 
 - Enhance visualizations with interactive tools like Plotly or Dash.
 
 ---
-
-**Files Generated**:
-- Monthly and annual volatility comparison graphs.
-- Annotated graphs highlighting key economic events.
-
 
 
 ### About the .csv files:
