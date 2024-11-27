@@ -2,16 +2,11 @@
 
 ## What questions are we looking to answer with this proyect? 
 
-The intention for this proyect is to answer a very interesting question about: 
+The intention for this proyect is to answer these very interesting questions: 
 
-1. How Bitcoin is correlated to the S&P 500 rates?
-2. How bitcoin and S&P 500 prices flutuate through the time, do they behave the same? 
-3. What is the correlation between Bitcoin and the S&P 500 during periods of economic crisis? Like: 
-  * covid-19 (2020-2021)
-  * supply and energy crisis (2021-2022, covid issues and Ukraine-Russia War)
-  * economic crisis (2023-2024)
-4. Does Bitcoin exhibits higher volatility compared to the S&P 500, especially in recent years? (Monthy and Yearly)
-5. The S&P 500 has more consistent returns, while Bitcoin shows extreme spikes, is this true?
+1. The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?
+2. Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?
+3. Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?
 
 By using different techniques such as:
 
@@ -29,7 +24,7 @@ With tools like:
   * __Matplotlib__
   * __Seaborn__
 
-I'll answer these very interesting questions, while showing my skills as Data Analyst! 
+I'll answer these very interesting questions, enjoy!
 
 ## General Description about the datasets: 
 
