@@ -259,7 +259,10 @@ See the further **observations** and **conclusions** in the notebook:
 ### **Simple Words**
 - **how volatile is Bitcoin compared to the S&P 500?**
   - 🪙 Bitcoin exhibits significantly higher 📈 volatility than the S&P 500 in almost every metric evaluated! This is especially true during extreme events, confirming its speculative nature and high-risk profile.
-  - With a **montly** average for **4 times** more than S&P 500 and pretty much **the same annually**. 
+  - With a **montly** average for **4 times** more than S&P 500 and pretty much **the same volatility annually**. 
+
+See the further **observations** and **conclusions** in the notebook:
+* [Analysis For Volatility](/5.2_Insights_Volatility_Monthly_Yearly.ipynb)
 
 <a id="figure-9"></a>
 **Figure 9.** Average Monthly Volatility BTC vs S&P 500. [⬆️ Go back](#volatility-monthly)
@@ -281,6 +284,20 @@ See the further **observations** and **conclusions** in the notebook:
 
 ![Annual Volatility Comparison BTC vs S&P 500](/images/Fig_12_BTC_SP500_Patern_Yearly.png)
 
+
+
+# Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?
+
+
+
+See the further **observations** and **conclusions** in the notebook:
+* [Analysis For Better Returns](/5.3_Inshights_Cumulative_Returns.ipynb)
+
+
+
+
+
+
 ### Key Takeaways for Stakeholders
 
 - **Investment Perspective**: Bitcoin's high volatility presents both opportunities and risks, especially during periods of market uncertainty. Understanding these patterns is critical for portfolio diversification.
@@ -292,15 +309,3 @@ See the further **observations** and **conclusions** in the notebook:
 - Include other economic indicators (e.g., inflation rates, interest rates) to deepen the analysis.
 - Explore intraday volatility patterns for shorter timeframes.
 - Enhance visualizations with interactive tools like Plotly or Dash.
-
----
-
-
-### About the .csv files:
-
-The dataset was originally spread in 6 different files 2 of them with the __MarketCap__ for Bitcoin and .
-The other 4 are 2 for the daily prices for Bitcion and  with their prices __compared to USD__
-
-This is why I decided to join the files __"Bitcoin USD (01-05.2024)"__ and __"BTC-USD (2014-2024)"__, and the __"ETH-USD (01-05.2024)"__ with __"ETH-USD (2017-2024)"__ in order to create only 2 files, one for BTC and other for ETH making the analysis easier. 
-
-There is also a data set from [yahoo finance](https://finance.yahoo.com/quote/%5EGSPC/history/) in which the historical information can be found. 
