@@ -1,10 +1,12 @@
-# Is there a significant correlation between Bitcoin prices and other economic indicators, such as the S&P 500?
+#### ⚠️ Disclaimer! This Is NOT A Financial Advice! Further details [Here](./DISCLAIMER.md). 👀
+
+# Understanding Bitcoin and the S&P 500: A Data-Driven Comparative Analysis
 
 <a id='main-questions'></a>
 
 ## What questions are we looking to answer with this proyect? 
 
-The intention for this proyect is to answer these very interesting questions as well as take a look to the behavior of Bitcoin and S&P 500 over the time: 
+By using public data, this proyect will try to answer these very interesting questions as well as take a look to the behavior of Bitcoin and S&P 500 over the time: 
 
 0. [Temporal analysis of Bitcoin (BTC) and S&P 500 over the last 10 years. **(Weekly, Monthly, Annually)**](#temporal-analysis)
 1. [The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?](#correlation-analysis)
