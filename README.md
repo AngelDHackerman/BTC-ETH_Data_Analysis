@@ -103,6 +103,14 @@ See the further **observations** and **conclusions** in the notebook:
 
 ![Weekly Volume Transaction of BTC and S&P 500](/images/Fig3_weekly_volume_BTC_SP500.png)
 
+**Monthly Averages.** Average Monthly Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
+
+![Average Monthly Prices of BTC and S&P 500 (USD)](/images/monthly_average_price.png)
+
+**Monthly Volum.** Volume Monthly Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
+
+![Volume Monthly Prices of BTC and S&P 500 (USD)](/images/monthly_total_volume.png)
+
 <a id="figure-2"></a>
 **Figure 2.** Average Annual Prices of BTC and S&P 500 (USD). [⬆️ Go back](#temporal-analysis)
 
@@ -355,6 +363,9 @@ See the further **observations** and **conclusions** in the notebook:
 ![Weekly Returns Over Time](/images/Weekly_Returns.png)
 
 #### Here it basically shows that would loss money in the first week of 2017 (actually ~10% of loss)
+
+See the further **observations** and **conclusions** in the notebook:
+* [Analysis For Returns](/5.3_Inshights_Cumulative_Returns.ipynb)
 
 --- 
 
