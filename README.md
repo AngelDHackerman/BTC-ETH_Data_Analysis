@@ -1,4 +1,4 @@
-#### ⚠️ Disclaimer! This Is NOT A Financial Advice! Further details [Here](./DISCLAIMER.md). 👀
+#### ⚠️ Disclaimer! This Is NOT A Financial Advice! Further details [Here](./disclaimers/DISCLAIMER.md). 👀
 
 # Understanding Bitcoin and the S&P 500: A Data-Driven Comparative Analysis
 
