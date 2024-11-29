@@ -305,9 +305,8 @@ See the further **observations** and **conclusions** in the notebook:
    > **Note**: The year 2017 is a notable outlier that significantly affects Bitcoin's annual average profits.
 
 3. **Risk-Reward Tradeoff**:
-   - Despite its volatility, Bitcoin consistently outperformed the S&P 500 in most metrics, making it an attractive option for risk-tolerant investors.
+   - Despite its volatility, Bitcoin consistently outperformed the S&P 500 in most metrics, making it an **attractive option for risk-tolerant investors**.
 
----
 
 ### Observations and Conclusions
 1. **Performance Analysis**:
@@ -326,7 +325,7 @@ See the further **observations** and **conclusions** in the notebook:
 ### Simple Words
 - Bitcoin 📈 offers massive potential gains, but it’s volatile 💥 and risky.
 - The S&P 500 📊 is a reliable choice for those who prefer steady and consistent growth 💼.
-- Combining these two could offer a balanced investment strategy: high returns with stability 🌍.
+- Combining these two could offer a balanced investment strategy: high returns with stability 🌎.
 
 
 <a id="figure-13"></a>
@@ -359,14 +358,25 @@ See the further **observations** and **conclusions** in the notebook:
 
 --- 
 
-### Key Takeaways for Stakeholders
 
-- **Investment Perspective**: Bitcoin's high volatility presents both opportunities and risks, especially during periods of market uncertainty. Understanding these patterns is critical for portfolio diversification.
-- **Market Behavior**: Bitcoin's reaction to global crises resembles that of a high-risk asset, aligning with market trends but often amplifying them.
-- **Strategic Decision-Making**: This analysis equips stakeholders with data-driven insights to better navigate the risks and rewards of Bitcoin compared to traditional assets like the S&P 500.
 
-### Future Improvements
+# Key Takeaways for Stakeholders
 
-- Include other economic indicators (e.g., inflation rates, interest rates) to deepen the analysis.
-- Explore intraday volatility patterns for shorter timeframes.
-- Enhance visualizations with interactive tools like Plotly or Dash.
+1. **Crisis Period Correlations**  
+   - Bitcoin and the S&P 500 show stronger correlations during periods of economic crisis, such as the COVID-19 pandemic and the 2023 financial crisis, with a peak correlation of **0.90**. This suggests Bitcoin's increasing alignment with traditional markets under global economic stress.
+
+2. **Volatility and Risk**  
+   - Bitcoin's average volatility is **4.26 times higher** than the S&P 500 monthly and **4.23 times higher** annually, making it a high-risk asset. However, this volatility also creates opportunities for significant returns in bull markets.
+
+3. **Superior Returns**  
+   - Bitcoin consistently outperforms the S&P 500 across all timeframes (weekly, monthly, quarterly, and annually). For example, Bitcoin's average annual return is **224%**, compared to **11.85%** for the S&P 500.
+
+4. **Market Sensitivity**  
+   - Bitcoin is highly reactive to global events and regulatory changes, with transaction volumes spiking during market shocks. This contrasts with the S&P 500's more stable trading behavior, highlighting Bitcoin’s speculative nature.
+
+5. **Investment Strategies**  
+   - Combining Bitcoin's high-growth potential with the S&P 500's stability can balance risk and reward in portfolios. While Bitcoin suits high-risk investors, the S&P 500 remains ideal for those seeking steady, consistent growth.
+
+---
+
+Made with love 💚 by Angel Hackerman 🥷🏻💻 and several AI machines 🤖. Thank for your time 🤗
