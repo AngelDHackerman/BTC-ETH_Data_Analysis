@@ -1,13 +1,15 @@
 # Is there a significant correlation between Bitcoin prices and other economic indicators, such as the S&P 500?
 
+<a id='main-questions'></a>
+
 ## What questions are we looking to answer with this proyect? 
 
 The intention for this proyect is to answer these very interesting questions as well as take a look to the behavior of Bitcoin and S&P 500 over the time: 
 
-0. Temporal analysis of Bitcoin (BTC) and S&P 500 over the last 10 years. **(Weekly, Monthly, Annually)**
-1. The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?
-2. Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?
-3. Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?
+0. [Temporal analysis of Bitcoin (BTC) and S&P 500 over the last 10 years. **(Weekly, Monthly, Annually)**](#temporal-analysis)
+1. [The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?](#correlation-analysis)
+2. [Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?](#volatility-analysis)
+3. [Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?](#Returns-Time)
 
 By using different techniques such as:
 
@@ -68,7 +70,7 @@ See the further **observations** and **conclusions** in the notebook:
 
 <a id='temporal-analysis'></a>
 
-### Step 4: Temporal Analysis
+# Step 4: Temporal Analysis [⬆️ Go Back To Main Questions 🤓](#main-questions)
 
 - **Objective**: Identify price trends over weekly, monthly, quarterly, and yearly intervals.
 
@@ -87,7 +89,7 @@ See the further **observations** and **conclusions** in the notebook:
 
 ---
 
-### **Simple Words**:
+## **Simple Words**:
   - Bitcoin 🪙 exhibits high volatility and exponential long-term growth 📈, with transaction volumes spiking significantly during market events 📊, while the S&P 500 remains stable and less sensitive to short-term changes 🛠️📉. **Since 2018, Bitcoin has consistently outperformed the S&P 500 in both price 💸 and volume 🔥**.
 
 See the further **observations** and **conclusions** in the notebook:
@@ -122,7 +124,11 @@ See the further **observations** and **conclusions** in the notebook:
 
 ![Weekly Volume Transaction of BTC and S&P 500](/images/Fig4_annual_volume_BTC_SP500.png)
 
-# The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?
+
+
+<a id="correlation-analysis"></a>
+
+# The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true? [⬆️ Go Back To Main Questions 🤓](#main-questions)
 
 ### Insights Analysis (Step 5.1):
 
@@ -186,7 +192,7 @@ These observations and graphical insights collectively highlight how BTC and the
 
 ---
 
-### **Simple Words**:
+## **Simple Words**:
 - **📊 So, is the correlation between Bitcoin and the S&P 500 higher during periods of economic crisis?**
   - ✅ Yes! It seems that the correlation between Bitcoin 🪙 and the S&P 500 💰 appears to be high 📈, especially during times of economic crises 🔥🌎📉.
 
@@ -214,8 +220,11 @@ See the further **observations** and **conclusions** in the notebook:
 
 ![Volumen-Price BTC vs S&P 500 Correlation](/images/Fig8_BTC_SP500_Volume_Price_correlation.png)
 
+---
 
-# Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?
+<a id="volatility-analysis"></a>
+
+# Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500? [⬆️ Go Back To Main Questions 🤓](#main-questions)
 ## Analyzing Volatility on Monthly and Yearly Scales
 
 ### Insights Analysis (Step 5.2)
@@ -265,7 +274,7 @@ See the further **observations** and **conclusions** in the notebook:
 
 ---
 
-### **Simple Words**
+## **Simple Words**
 - **how volatile is Bitcoin compared to the S&P 500?**
   - 🪙 Bitcoin exhibits significantly higher 📈 volatility than the S&P 500 in almost every metric evaluated! This is especially true during extreme events, confirming its speculative nature and high-risk profile.
   - With a **montly** average for **4 times** more than S&P 500 and pretty much **the same volatility annually**. 
@@ -294,9 +303,11 @@ See the further **observations** and **conclusions** in the notebook:
 ![Annual Volatility Comparison BTC vs S&P 500](/images/Fig_12_BTC_SP500_Patern_Yearly.png)
 
 
+---
+
 <a id="Returns-Time"></a>
 
-# Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?
+# Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency? [⬆️ Go Back To Main Questions 🤓](#main-questions)
 
 ### Key Observations
 1. **Returns Over Different Timeframes**:
@@ -331,7 +342,7 @@ See the further **observations** and **conclusions** in the notebook:
 
 ---
 
-### Simple Words
+## Simple Words
 - Bitcoin 📈 offers massive potential gains, but it’s volatile 💥 and risky.
 - The S&P 500 📊 is a reliable choice for those who prefer steady and consistent growth 💼.
 - Combining these two could offer a balanced investment strategy: high returns with stability 🌎.
