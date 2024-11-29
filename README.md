@@ -285,18 +285,79 @@ See the further **observations** and **conclusions** in the notebook:
 ![Annual Volatility Comparison BTC vs S&P 500](/images/Fig_12_BTC_SP500_Patern_Yearly.png)
 
 
+<a id="Returns-Time"></a>
 
 # Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?
 
+### Key Observations
+1. **Returns Over Different Timeframes**:
+   - Bitcoin demonstrated significantly higher annual, quarterly, monthly, and weekly returns compared to the S&P 500, albeit with higher volatility.**(See [Figure 13](#figure-13), [Figure 14](#figure-14), [Figure 15](#figure-15), [Figure 16](#figure-16))**
+   - For example:
+     - In 2017, Bitcoin's annual return was approximately 1300%, highlighting its explosive growth during bull markets.
+
+2. **Average Profits**:
+   - This is another interesting finding, the average returns for **BTC** and **S&P 500**:
+   - **Weekly Average**: Bitcoin 0.62% vs. S&P 500 0.23%
+   - **Monthly Average**: Bitcoin 6.42% vs. S&P 500 0.83%
+   - **Quarterly Average**: Bitcoin 28.45% vs. S&P 500 3.03%
+   - **Annual Average**: Bitcoin 224.01% vs. S&P 500 11.85%
+
+   > **Note**: The year 2017 is a notable outlier that significantly affects Bitcoin's annual average profits.
+
+3. **Risk-Reward Tradeoff**:
+   - Despite its volatility, Bitcoin consistently outperformed the S&P 500 in most metrics, making it an attractive option for risk-tolerant investors.
+
+---
+
+### Observations and Conclusions
+1. **Performance Analysis**:
+   - Bitcoin's returns are extraordinary in bull markets, while the S&P 500 provides steady returns over time.
+   - The risk associated with Bitcoin's volatility is offset by its high potential for substantial gains.
+
+2. **Diversification Opportunities**:
+   - Incorporating both assets into a portfolio allows for balancing high returns from Bitcoin with the stability of the S&P 500.
+
+3. **Insights for Stakeholders**:
+   - Investors seeking long-term stability may prefer the S&P 500.
+   - High-risk investors looking for exponential returns might benefit from Bitcoin.
+
+---
+
+### Simple Words
+- Bitcoin 📈 offers massive potential gains, but it’s volatile 💥 and risky.
+- The S&P 500 📊 is a reliable choice for those who prefer steady and consistent growth 💼.
+- Combining these two could offer a balanced investment strategy: high returns with stability 🌍.
 
 
-See the further **observations** and **conclusions** in the notebook:
-* [Analysis For Better Returns](/5.3_Inshights_Cumulative_Returns.ipynb)
+<a id="figure-13"></a>
+**Figure 13.** Annual Returns Over Time. [⬆️ Go back](#Returns-Time)
 
+![Annual Returns Over Time](/images/Annual_Returns.png)
 
+#### e.g. If you invested X amount in January 2017 and then you withdraw you money at the end of December 2017, you would have had a profit of 1300%
 
+<a id="figure-14"></a>
+**Figure 14.** Quarterly Returns Over Time. [⬆️ Go back](#Returns-Time)
 
+![Quarterly Returns Over Time](/images/Quarterly_Returns.png)
 
+#### e.g. If you invested X amount in January 2017 and then you withdraw you money on March 2017, you would have had a profit of ~120%
+
+<a id="figure-15"></a>
+**Figure 15.** Monthly Returns Over Time. [⬆️ Go back](#Returns-Time)
+
+![Monthly Returns Over Time](/images/Monthly_Returns.png)
+
+#### e.g. If you invested X amount in January 03 2017 and then you withdraw you money on January 31st 2017, you would have had a profit of ~20%
+
+<a id="figure-16"></a>
+**Figure 16.** Weekly Returns Over Time. [⬆️ Go back](#Returns-Time)
+
+![Weekly Returns Over Time](/images/Weekly_Returns.png)
+
+#### Here it basically shows that would loss money in the first week of 2017 (actually ~10% of loss)
+
+--- 
 
 ### Key Takeaways for Stakeholders
 
