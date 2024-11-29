@@ -2,8 +2,9 @@
 
 ## What questions are we looking to answer with this proyect? 
 
-The intention for this proyect is to answer these very interesting questions: 
+The intention for this proyect is to answer these very interesting questions as well as take a look to the behavior of Bitcoin and S&P 500 over the time: 
 
+0. Temporal analysis of Bitcoin (BTC) and S&P 500 over the last 10 years. **(Weekly, Monthly, Annually)**
 1. The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?
 2. Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?
 3. Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?
