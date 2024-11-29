@@ -1,5 +1,10 @@
 #### ⚠️ Disclaimer! This Is NOT A Financial Advice! Further details [Here](./disclaimers/DISCLAIMER.md). 👀
 
+Quieres leerlo en español? [click aqui](./readme_spanish.md).
+
+Voulez-vous le lire en français? [Cliquez ici](./readme_french.md).
+
+
 # Understanding Bitcoin and the S&P 500: A Data-Driven Comparative Analysis
 
 <a id='main-questions'></a>
