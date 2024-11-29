@@ -10,6 +10,7 @@ The intention for this proyect is to answer these very interesting questions as 
 1. [The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?](#correlation-analysis)
 2. [Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?](#volatility-analysis)
 3. [Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?](#Returns-Time)
+4. [**Bonus!** Key Takeaways for Stakeholders](#takeaways)
 
 By using different techniques such as:
 
@@ -381,9 +382,9 @@ See the further **observations** and **conclusions** in the notebook:
 
 --- 
 
+<a id="takeaways"></a>
 
-
-# Key Takeaways for Stakeholders
+# Key Takeaways for Stakeholders [⬆️ Go Back To Main Questions 🤓](#main-questions)
 
 1. **Crisis Period Correlations**  
    - Bitcoin and the S&P 500 show stronger correlations during periods of economic crisis, such as the COVID-19 pandemic and the 2023 financial crisis, with a peak correlation of **0.90**. This suggests Bitcoin's increasing alignment with traditional markets under global economic stress.
