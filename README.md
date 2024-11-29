@@ -130,7 +130,7 @@ See the further **observations** and **conclusions** in the notebook:
 <a id="figure-4"></a>
 **Figure 4.** Annual Volume Transaction of BTC and S&P 500 (per 1 millon units). [⬆️ Go back](#temporal-analysis)
 
-![Weekly Volume Transaction of BTC and S&P 500](/images/Fig4_annual_volume_BTC_SP500.png)
+![Annual Volume Transaction of BTC and S&P 500](/images/Fig4_annual_volume_BTC_SP500.png)
 
 
 
