@@ -15,8 +15,8 @@ By using public data, this proyect will try to answer these very interesting que
 
 0. [Temporal analysis of Bitcoin (BTC) and S&P 500 over the last 10 years. **(Weekly, Monthly, Annually)**](#temporal-analysis)
 1. [The correlation between Bitcoin and the S&P 500 is higher in periods of economic crisis, is this true?](#correlation-analysis)
-2. [Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?](#volatility-analysis)
-3. [Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?](#Returns-Time)
+2. [Bitcoin shows high volatility compared to the S&P 500, but how volatile is BTC compared to the S&P 500?](#volatility-analysis)
+3. [Which Offers Better Returns: Bitcoin's Volatility or the S&P 500's Consistency?](#Returns-Time)
 4. [**Bonus!** Key Takeaways for Stakeholders](#takeaways)
 
 By using different techniques such as:
@@ -78,7 +78,7 @@ See the further **observations** and **conclusions** in the notebook:
 
 <a id='temporal-analysis'></a>
 
-# Step 4: Temporal Analysis [⬆️ Go Back To Main Questions 🤓](#main-questions)
+# Temporal analysis of Bitcoin (BTC) and S&P 500 over the last 10 years. **(Weekly, Monthly, Annually)** [⬆️ Go Back To Main Questions 🤓](#main-questions)
 
 - **Objective**: Identify price trends over weekly, monthly, quarterly, and yearly intervals.
 
