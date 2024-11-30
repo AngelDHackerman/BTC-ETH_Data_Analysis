@@ -13,9 +13,9 @@ What to read it in English? [click here](/README.md).
 En utilisant des données publiques, ce projet tentera de répondre à ces questions très intéressantes, tout en analysant le comportement du Bitcoin et du S&P 500 au fil du temps :
 
 0. [Analyse temporelle de Bitcoin (BTC) et S&P 500 au cours des 10 dernières années. **(Hebdomadaire, Mensuel, Annuel)**](#temporal-analysis)
-1. [La corrélation entre Bitcoin et le S&P 500 est-elle plus forte en période de crise économique, est-ce vrai ?](#correlation-analysis)
-2. [Bitcoin montre une forte volatilité par rapport au S&P 500, mais à quel point BTC est-il volatil par rapport au S&P 500 ?](#volatility-analysis)
-3. [Qu'offre de meilleurs rendements : la volatilité de Bitcoin ou la cohérence du S&P 500 ?](#Returns-Time)
+1. [La corrélation entre Bitcoin et le S&P 500 est-elle plus forte en période de crise économique, est-ce vrai?](#correlation-analysis)
+2. [Bitcoin montre une forte volatilité par rapport au S&P 500, mais à quel point BTC est-il volatil par rapport au S&P 500?](#volatility-analysis)
+3. [Qu'offre de meilleurs rendements : la volatilité de Bitcoin ou la cohérence du S&P 500?](#Returns-Time)
 4. [**Bonus !** Points clés pour les parties prenantes](#takeaways)
 
 En utilisant différentes techniques telles que :
@@ -131,7 +131,7 @@ Consultez les **observations** et **conclusions** supplémentaires dans le noteb
 
 <a id="correlation-analysis"></a>
 
-# La corrélation entre Bitcoin et le S&P 500 est-elle plus élevée en périodes de crise économique ? [⬆️ Retour aux Questions Principales 🤓](#main-questions)
+# La corrélation entre Bitcoin et le S&P 500 est-elle plus forte en période de crise économique, est-ce vrai? [⬆️ Retour aux Questions Principales 🤓](#main-questions)
 
 ### Analyse des Perspectives (Étape 5.1) :
 
@@ -227,7 +227,7 @@ Consultez les **observations** et **conclusions** supplémentaires dans le noteb
 
 <a id="volatility-analysis"></a>
 
-# Bitcoin montre une forte volatilité par rapport au S&P 500, mais à quel point BTC est-il plus volatil que le S&P 500 ? [⬆️ Retour aux Questions Principales 🤓](#main-questions)
+# Bitcoin montre une forte volatilité par rapport au S&P 500, mais à quel point BTC est-il plus volatil que le S&P 500? [⬆️ Retour aux Questions Principales 🤓](#main-questions)
 ## Analyse de la Volatilité sur des Échelles Mensuelles et Annuelles
 
 ### Analyse des Perspectives (Étape 5.2)
@@ -309,7 +309,7 @@ Consultez les **observations** et **conclusions** supplémentaires dans le noteb
 
 <a id="Returns-Time"></a>
 
-# Qu'est-ce qui offre de meilleurs rendements : la volatilité de Bitcoin ou la constance du S&P 500 ? [⬆️ Retour aux Questions Principales 🤓](#main-questions)
+# Qu'est-ce qui offre de meilleurs rendements : la volatilité de Bitcoin ou la constance du S&P 500? [⬆️ Retour aux Questions Principales 🤓](#main-questions)
 
 ### Observations Clés
 1. **Rendements sur Différentes Périodes**:
@@ -383,7 +383,7 @@ Consultez les **observations** et **conclusions** supplémentaires dans le noteb
 
 <a id="takeaways"></a>
 
-# Points Clés pour les Parties Prenantes [⬆️ Retour aux Questions Principales 🤓](#main-questions)
+# **Bonus!** Points clés pour les parties prenantes [⬆️ Retour aux Questions Principales 🤓](#main-questions)
 
 1. **Corrélations pendant les Périodes de Crise**  
    - Bitcoin et le S&P 500 montrent des corrélations plus fortes lors des périodes de crise économique, comme la pandémie de COVID-19 et la crise financière de 2023, avec une corrélation maximale de **0,90**. Cela suggère une alignement croissant de Bitcoin avec les marchés traditionnels sous le stress économique mondial.
