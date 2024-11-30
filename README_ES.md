@@ -1,4 +1,4 @@
-#### ⚠️ ¡Descargo de responsabilidad! ¡Esto NO es un consejo financiero! Más detalles [aquí](./README_ES.md). 👀
+#### ⚠️ ¡Descargo de responsabilidad! ¡Esto NO es un consejo financiero! Más detalles [aquí](./Disclaimers/DISCLAIMER_ES.md). 👀
 
 What to read it in English? [click here](/README.md).
 
