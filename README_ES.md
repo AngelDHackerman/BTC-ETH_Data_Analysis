@@ -131,7 +131,7 @@ Consulta las **observaciones** y **conclusiones** adicionales en el notebook:
 
 <a id="correlation-analysis"></a>
 
-# ¿Es cierto que la correlación entre Bitcoin y el S&P 500 es mayor en períodos de crisis económica? [⬆️ Volver a las Preguntas Principales 🤓](#main-questions)
+# La correlación entre Bitcoin y el S&P 500 es mayor en períodos de crisis económica, ¿es esto cierto? [⬆️ Volver a las Preguntas Principales 🤓](#main-questions)
 
 ### Análisis de Perspectivas (Paso 5.1):
 
@@ -382,7 +382,7 @@ Consulta las **observaciones** y **conclusiones** adicionales en el notebook:
 
 <a id="takeaways"></a>
 
-# Puntos Clave para los Interesados [⬆️ Volver a las Preguntas Principales 🤓](#main-questions)
+# **¡Bonus!** Puntos clave para los interesados [⬆️ Volver a las Preguntas Principales 🤓](#main-questions)
 
 1. **Correlaciones Durante Períodos de Crisis**  
    - Bitcoin y el S&P 500 muestran correlaciones más fuertes durante períodos de crisis económica, como la pandemia de COVID-19 y la crisis financiera de 2023, con una correlación máxima de **0.90**. Esto sugiere una mayor alineación de Bitcoin con los mercados tradicionales bajo el estrés económico global.
