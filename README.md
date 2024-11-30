@@ -1,4 +1,4 @@
-#### ⚠️ Disclaimer! This Is NOT A Financial Advice! Further details [Here](./disclaimers/DISCLAIMER.md). 👀
+#### ⚠️ Disclaimer! This Is NOT A Financial Advice! Further details [Here](./Disclaimers/DISCLAIMER.md). 👀
 
 Quieres leerlo en español? [click aqui](./README_ES.md).
 

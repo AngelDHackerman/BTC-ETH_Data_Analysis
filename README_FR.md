@@ -1,4 +1,4 @@
-#### ⚠️ Avertissement ! Ce n'est PAS un conseil financier ! Plus de détails [ici](./disclaimers/DISCLAIMER.md). 👀
+#### ⚠️ Avertissement ! Ce n'est PAS un conseil financier ! Plus de détails [ici](./Disclaimers/DISCLAIMER_FR.md). 👀
 
 Quieres leerlo en español? [click aqui](./README_ES.md).
 
